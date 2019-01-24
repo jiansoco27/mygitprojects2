@@ -24,7 +24,7 @@ public class MyAccountPageTests {
 	@Test
 	public void testSuccessfulLogin() throws InterruptedException
 	{
-		driver.get("http://test1.absofttrinings.com/my-account/");
+		driver.get("http://test1.absofttrainings.com/my-account/");
 		driver.findElement(By.id("username")).sendKeys("testuser1");
 		driver.findElement(By.id("password")).sendKeys("testpwd1");
 		driver.findElement(By.name("login")).click();
